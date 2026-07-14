@@ -1,0 +1,9 @@
+name: workflow1
+on:
+  workflow_dispatch
+jobs:
+  myjob1:
+    runs-on: ubuntu-latest
+    steps:
+       - name: jobtask1
+         run: echo " GOOD MORNING"
