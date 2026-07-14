@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: jobtask1
-         run: echo " GOOD MORNING"
+         run: echo " GOOD MORNING "
