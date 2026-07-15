@@ -1,0 +1,13 @@
+name: fifthworkflow
+on:
+ push:
+  branches:
+    - master
+jobs:
+  myjob1:
+   runs-on: ubuntu-latest
+   steps:
+      - name: this is my name
+        run: echo "My Name is ${{vars.NAME}}"
+      - name: mypasswrod is
+        run: ech "My passwrod is ${{secrets.PASSWORD}}"
