@@ -10,4 +10,4 @@ jobs:
       - name: this is my name
         run: echo "My Name is ${{vars.NAME}}"
       - name: mypasswrod is
-        run: ech "My passwrod is ${{secrets.PASSWORD}}"
+        run: echo "My passwrod is ${{secrets.PASSWORD}}"
