@@ -1,0 +1,13 @@
+name: workflow2
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+   myjob1:
+     runs-on: windows-latest
+     steps:
+        - run: write-host " Good Morning from windows host "
+        - name : This is job2
+          run: ipconfig 
